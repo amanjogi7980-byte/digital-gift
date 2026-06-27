@@ -31,7 +31,9 @@ const allowedNames = [
 
     "prachi", 
 
-    "Prachi"
+    "Prachi",
+    "Avni",
+    "avni"
 
 ];
 
