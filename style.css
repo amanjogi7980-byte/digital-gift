@@ -2255,23 +2255,25 @@ padding:2.5rem;
 
 #musicPlayer{
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 20px;
+    right: 20px;
 
-    width: 58px;
-    height: 58px;
-
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    z-index: 999;
+    border-radius: 50%;
 
-    cursor: pointer;
+    background: linear-gradient(135deg,#ff4da6,#7c4dff);
 
-    transition: .3s;
+    box-shadow: 0 10px 25px rgba(124,77,255,.45);
+
+    z-index: 9999;
+
+    overflow: hidden;
 }
 
 #musicBtn{
@@ -2330,7 +2332,7 @@ transform:scale(.92);
 
 .music-info{
 
-display:flex;
+    display:none !important;
 
 flex-direction:column;
 
@@ -2361,6 +2363,9 @@ font-size:11px;
 #musicIcon{
 
 animation:spinDisc 4s linear infinite;
+    width:28px;
+    height:28px;
+    font-size:28px;
 
 }
 
@@ -2417,6 +2422,16 @@ transform:translateY(0);
     footer{
 
         padding-bottom:90px;
+    }
+
+}
+@media (max-width:768px){
+
+    #musicPlayer{
+        width:52px;
+        height:52px;
+        bottom:16px;
+        right:16px;
     }
 
 }
