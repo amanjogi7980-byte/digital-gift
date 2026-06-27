@@ -2254,45 +2254,24 @@ padding:2.5rem;
 ==========================================*/
 
 #musicPlayer{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
 
- opacity:0;
+    width: 58px;
+    height: 58px;
 
-visibility:hidden;
+    border-radius: 50%;
 
-transform:translateY(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-transition:.45s ease;
+    z-index: 999;
 
-position:fixed;
+    cursor: pointer;
 
-right:18px;
-
-bottom:18px;
-
-align-items:center;
-
-gap:12px;
-
-padding:10px 14px;
-
-border-radius:60px;
-
-background:rgba(255,255,255,.08);
-
--webkit-backdrop-filter:blur(18px);
-
-backdrop-filter:blur(18px);
-
-border:1px solid rgba(255,255,255,.15);
-
-box-shadow:
-
-0 15px 40px rgba(0,0,0,.35);
-
-z-index:99999;
-
-animation:musicFloat 3s ease infinite;
-
+    transition: .3s;
 }
 
 #musicBtn{
@@ -2368,6 +2347,8 @@ color:white;
 }
 
 .music-info small{
+   
+display:none;
 
 margin-top:3px;
 
@@ -2418,5 +2399,24 @@ transform:translateY(-6px);
 transform:translateY(0);
 
 }
+
+}
+@media (max-width:768px){
+
+    #musicPlayer{
+
+        width:55px;
+
+        height:55px;
+
+        bottom:18px;
+
+        right:18px;
+    }
+
+    footer{
+
+        padding-bottom:90px;
+    }
 
 }
