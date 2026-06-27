@@ -29,9 +29,6 @@ const bgMusic = document.getElementById("bgMusic");
 
 const allowedNames = [
 
-    "prachi", 
-
-    "Prachi",
     "Avni",
     "avni"
 
