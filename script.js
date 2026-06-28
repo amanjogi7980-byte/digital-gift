@@ -28,8 +28,6 @@ const bgMusic = document.getElementById("bgMusic");
 const allowedNames= [
    "Prachi"
    "Prachi"
-   "Avni"
-   "avni"
    "Kajal"
    "kajal"
 ];
