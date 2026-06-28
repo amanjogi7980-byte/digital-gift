@@ -25,11 +25,11 @@ const bgMusic = document.getElementById("bgMusic");
 /* ==========================================
    LOADER
 ========================================== */
-const allowedNames= [
-   "Prachi"
-   "Prachi"
-   "Kajal"
-   "kajal"
+const allowedNames = [
+    "Kajal",
+    "kajal",
+    "prachi",
+    "Prachi",
 ];
 /* ==========================================
    LOADER
