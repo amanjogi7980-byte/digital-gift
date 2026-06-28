@@ -24,17 +24,6 @@ const welcomeText = document.getElementById("welcomeText");
 const bgMusic = document.getElementById("bgMusic");
 
 /* ==========================================
-   CHANGE THIS NAME
-========================================== */
-
-const allowedNames = [
-
-    "prachi",
-    "Prachi"
-
-];
-
-/* ==========================================
    LOADER
 ========================================== */
 
@@ -101,18 +90,6 @@ function openWebsite() {
         name.toLowerCase() === value.toLowerCase()
 
     );
-
-    if (!ok) {
-
-        errorMessage.innerHTML =
-
-            "Oops 😅 Ye surprise kisi aur ke liye hai.";
-
-        username.value = "";
-
-        return;
-
-    }
 
     errorMessage.innerHTML = "";
 
