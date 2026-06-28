@@ -22,7 +22,17 @@ const errorMessage = document.getElementById("errorMessage");
 const welcomeText = document.getElementById("welcomeText");
 
 const bgMusic = document.getElementById("bgMusic");
-
+/* ==========================================
+   LOADER
+========================================== */
+const allowedNames= [
+   "Prachi"
+   "Prachi"
+   "Avni"
+   "avni"
+   "Kajal"
+   "kajal"
+];
 /* ==========================================
    LOADER
 ========================================== */
@@ -90,6 +100,17 @@ function openWebsite() {
         name.toLowerCase() === value.toLowerCase()
 
     );
+   if (!ok) {
+
+        errorMessage.innerHTML =
+
+            "Oops 😅 Ye surprise kisi aur ke liye hai.";
+
+        username.value = "";
+
+        return;
+
+   }
 
     errorMessage.innerHTML = "";
 
