@@ -26,8 +26,8 @@ const bgMusic = document.getElementById("bgMusic");
    LOADER
 ========================================== */
 const allowedNames = [
-    "Kajal",
-    "kajal",
+    "avni",
+    "Avni",
     "prachi",
     "Prachi",
 ];
